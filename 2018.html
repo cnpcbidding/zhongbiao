@@ -1,0 +1,1079 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>山东科捷工程检测有限公司</title>
+    <link rel="stylesheet" type="text/css" href="https://www.cnpcbidding.com/templets/1/outer/css/title.css">
+    <link rel="stylesheet" type="text/css" href="https://www.cnpcbidding.com/templets/1/outer/css/index.css">
+    <!-- Bootstrap -->
+    <link href="https://www.cnpcbidding.com/templets/1/outer/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://www.cnpcbidding.com/templets/1/outer/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://www.cnpcbidding.com/templets/1/outer/css/iconfont.css">
+    <!--<script src="https://www.cnpcbidding.com/templets/1/outer/js/slider.js"></script>-->
+    <!--vue-懒加载-表单验证-->
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/vue.min.js"></script>
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/validator.min.js"></script>
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/less.min.js"></script>
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/sea.js"></script>
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/main.min.js"></script>
+    <script src="/templets/1/outer/js/validator.js"></script>
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/jquery-1.9.1.js"></script>
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/html5shiv.min.js"></script>
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/respond.min.js"></script>
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://www.cnpcbidding.com/templets/1/outer/js/bootstrap.min.js"></script>
+
+    <script>
+        ms.config({
+            base: "https://www.cnpcbidding.com",
+            filter: {
+                people: {
+                    loginUrl: 'https://www.cnpcbidding.com'
+                }
+            }
+        });
+
+    </script>
+
+</head>
+
+<body>
+    <div class="container no-media-container">
+        <div class="header" id="header">
+            <div class="row">
+                <div class="col-md-6 col-xs-10">
+                    <div class="logo mt20">
+                        <a href="./index.html">
+                            <span style="font-size: 30;font-weight: 400;">山东科捷工程检测有限公司</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-2">
+                    <div class="qrcode pull-right">
+
+                    </div>
+                    <div class="weather pull-right">
+                        <div><a href="javascript:void(0)" onclick="SetHome(this,window.location)">设为首页 </a><span> |
+                            </span><a href="javascript:void(0)" onclick="shoucang(document.title,window.location)">
+                                加入收藏</a></div>
+
+                        <div class="weather-api">
+                            <iframe width="200" scrolling="no" height="45" frameborder="0" allowtransparency="true"
+                                src=""></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+
+            //收藏
+            function shoucang(sTitle, sURL) {
+                try {
+                    window.external.addFavorite(sURL, sTitle);
+                }
+                catch (e) {
+                    try {
+                        window.sidebar.addPanel(sTitle, sURL, "");
+                    }
+                    catch (e) {
+                        alert("加入收藏失败，请使用Ctrl+D进行添加");
+                    }
+                }
+            }
+            //设为主页
+            function SetHome(obj, url) {
+                try {
+                    obj.style.behavior = 'url(#default#homepage)';
+                    obj.setHomePage(url);
+                } catch (e) {
+                    if (window.netscape) {
+                        try {
+                            netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                        } catch (e) {
+                            alert("抱歉，此操作被浏览器拒绝！\n\n请在浏览器地址栏输入“about:config”并回车然后将[signed.applets.codebase_principal_support]设置为'true'");
+                        }
+                    } else {
+                        alert("抱歉，您所使用的浏览器无法完成此操作。\n\n您需要手动将【" + url + "】设置为首页。");
+                    }
+                }
+            }
+
+
+        </script>
+        <div class="clearfix visible-xs-block mb20"></div>
+        <nav class="navbar navbar-default">
+            <div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav" style="text-align: center;">
+                        <li class="dropdown"><a href="index.html" style="font-size: 20;">首页 <span
+                                    class="sr-only">(current)</span></a></li>
+                        <li class="dropdown">
+                            <a href="javascript: void (0);" style="font-size: 20;" class="dropdown-toggle"
+                                data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">公司简介</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" style="font-size: 20;" data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">核心能力</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" style="font-size: 20;" data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">业务范围</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" style="font-size: 20;" data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">解决方案 </a>
+                        </li>
+                        <li class="active">
+                            <a href="#" class="dropdown-toggle" style="font-size: 20;" data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">荣誉资质 </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" style="font-size: 20;" data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">咨询中心</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" style="font-size: 20;" data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">人才招聘 </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" style="font-size: 20;" data-toggle="dropdown"
+                                role="button" aria-haspopup="true" aria-expanded="false">联系我们</a>
+                        </li>
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div id="content_iframe" style="border: 0px; width: 1140px;">
+            <div class="container" style="width: 1140px; padding: 0px;">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="categories">
+                            <h3>网站导航<span> / CATEGORIES</span></h3>
+                            <ul id="nav_ul">
+                                <li>
+                                    <a href="javascript: void (0);" onclick="loadPage(this)" url="./list.html"
+                                        categoryid="181" pid="180">2017年中标项目</a></li>
+                                <li class="acitve"><a href="javascript: void (0);" onclick="loadPage(this)" url="./list.html"
+                                        categoryid="182" pid="180">2018年中标项目</a></li>
+                                <li><a href="javascript: void (0);" onclick="loadPage(this)" url="./list.html"
+                                        categoryid="183" pid="180">2019年中标项目</a></li>
+                                <li><a href="javascript: void (0);" onclick="loadPage(this)" url="./list.html"
+                                        categoryid="184" pid="180">2020年中标项目</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="column_cont">
+                            <ol class="breadcrumb">
+                                <li>当前位置：</li>
+                                <!--<li><a href="javascript: void (0);" name="firstPage">信息公告</a></li>-->
+                                <li><a id="categoryTitle" href="javascript: void (0);">荣誉资质</a></li>
+                                <li><a id="contactTitle" href="javascript: void (0);">中标通知书</a></li>
+                                <!--<li class="active"></li>-->
+                            </ol>
+                            <div class="column_block_con">
+                                <!--<div class="column_block_con_title">-->
+                                <!--<h3>东河油气开发部油井PCS化学防砂技术现场服务</h3>-->
+                                <!--<h4>招标编号：TLM19-K103-154</h4>-->
+                                <!--<span>2019年5月15日</span>-->
+                                <!--</div>-->
+                                <div id="content" class="content">
+                                    <div class="column_block_con_title">
+                                        <h3>520万立方米油库扩建项目无损检测</h3> 
+                                        <h4 style="color: black;">中标（成交）通知书</h4> 
+                                        <span>发布时间：2018-12-20 14:38:24</span>
+                                    </div>
+                                    <div>
+                                        <img src="b2018.jpg" style="width: 850;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="clearfix mb20"></div>
+            </div>
+            <script>
+
+                function initPage() {
+                    $.get("https://www.cnpcbidding.com/category/" + userData.pid + "/queryChildren", {}, function (result) {
+                        // categoryTitle 标题
+                        // categoryId ID
+                        if (result) {
+                            var html = "";
+                            for (var i = 0; i < result.length; i++) {
+                                var categoryId = result[i].categoryId;
+                                var categoryTitle = result[i].categoryTitle;
+                                if (categoryId == userData.categoryId) {
+                                    if (categoryId == '187') {
+                                        html += "<li class='acitve' ><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./page.html' categoryId='" + categoryId + "' pid='" + userData.pid + "' dataId='282'>" + categoryTitle + "</a></li>";
+                                    } else if (categoryId == '188') {
+                                        html += "<li class='acitve' ><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./page.html' categoryId='" + categoryId + "' pid='" + userData.pid + "' dataId='283'>" + categoryTitle + "</a></li>";
+
+                                    } else if (categoryId == '190') {
+                                        html += "<li class='acitve' ><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./page.html' categoryId='" + categoryId + "' pid='" + userData.pid + "' dataId='284'>" + categoryTitle + "</a></li>";
+
+                                    } else if (categoryId == '169') {
+                                        html += "<li class='acitve' ><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./page.html' categoryId='" + categoryId + "' pid='" + userData.pid + "' dataId='286'>" + categoryTitle + "</a></li>";
+
+                                    } else {
+                                        html += "<li class='acitve' ><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./list.html' categoryId='" + categoryId + "' pid='" + userData.pid + "'>" + categoryTitle + "</a></li>";
+                                    }
+                                    $("#categoryTitle").html(categoryTitle);
+                                } else {
+                                    if (categoryId == '187') {
+                                        html += "<li><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./page.html' categoryId='" + categoryId + "' pid='" + userData.pid + "' dataId='282'>" + categoryTitle + "</a></li>";
+                                    } else if (categoryId == '188') {
+                                        html += "<li><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./page.html' categoryId='" + categoryId + "' pid='" + userData.pid + "' dataId='283'>" + categoryTitle + "</a></li>";
+
+                                    } else if (categoryId == '190') {
+                                        html += "<li><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./page.html' categoryId='" + categoryId + "' pid='" + userData.pid + "' dataId='284'>" + categoryTitle + "</a></li>";
+
+                                    } else if (categoryId == '169') {
+                                        html += "<li><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./page.html' categoryId='" + categoryId + "' pid='" + userData.pid + "' dataId='286'>" + categoryTitle + "</a></li>";
+
+                                    } else {
+                                        html += "<li><a href=\"javascript: void (0);\" onclick='loadPage(this)' url='./list.html' categoryId='" + categoryId + "' pid='" + userData.pid + "'>" + categoryTitle + "</a></li>";
+                                    }
+                                }
+                            }
+                            $("#nav_ul").html(html);
+                        }
+                    }, "json");
+
+                    // 查询详情
+                    var listHtml = "";
+                    if (userData.pid == '174' || userData.pid == '185' || userData.pid == '193' || userData.categoryId == '210') {
+                        $.ajax({
+                            type: "POST",
+                            url: "https://www.cnpcbidding.com/cms/pmsbidInfo/detailsOut",
+                            data: JSON.stringify(userData),//必须
+                            contentType: "application/json;charsetset=UTF-8",//必须
+                            dataType: "JSON",
+                            success: function (data) {
+
+                                var list = data.list;
+                                var result = data.attachmentList;
+                                var fileId = list[0].fileId;
+                                var fileName = list[0].fileName;
+                                $("#contactTitle").html(list[0].projectname);
+                                var html = list[0].bulletincontent;
+                                var flag = typeof html != "undefined" && html != null && html != "";
+                                if (flag) {
+                                    if (html.indexOf("class=\"hide\"") > 0) {
+                                        html = html.replace("class=\"hide\"", "");
+                                    }
+                                } else {
+                                    html = "";
+                                }
+                                if (list[0].projectname) {
+                                    var title = "<div class=\"column_block_con_title\">" +
+                                        "                            <h3>" + list[0].projectname + "</h3>" +
+                                        "                            <span>发布时间：" + list[0].dateTime + "</span>" +
+                                        "                        </div>";
+
+                                    if (result.length > 0) { // "",null,undefined,NaN
+                                        html += "                            <table>\n" +
+                                            "                                <tbody><tr>\n" +
+                                            "                                    <td style=\"width:121px;\">附件</td>\n";
+                                        for (var i = 0; i < result.length; i++) {
+                                            html += "<td style=\"padding-left: 25px;\"><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + result[i].ATTACHMENTID + "&skip=true\" download='" + result[i].NAME + "'>" + result[i].NAME + "</a></td>";
+                                        }
+                                    } else if (fileId) {
+                                        html += "                            <table>\n" +
+                                            "                                <tbody><tr>\n" +
+                                            "                                    <td style=\"width:121px;\">附件</td>\n";
+                                        if (fileName) {
+                                            html += "<td style=\"padding-left: 25px;\"><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + fileId + "&skip=true\" download='" + list[0].fileName + "'>" + list[0].fileName + "</a></td>";
+                                        } else {
+                                            html += "<td style=\"padding-left: 25px;\"><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + fileId + "&skip=true\" download='" + list[0].projectname + "'>" + list[0].projectname + "</a></td>";
+                                        }
+                                    } else {
+                                        html += "                            <table>\n" +
+                                            "                                <tbody><tr>\n" +
+                                            "                                    <td style=\"width:121px;\">附件</td>\n";
+                                        html += "<td style=\"padding-left: 25px;\">无</td>\n";
+
+                                    }
+                                    html += "</tr></tbody></table>";
+
+                                    var content = title + "<div>" + html + "</div>";
+                                    $("#content").html(content);
+                                } else {
+                                    $("#content").html(html);
+                                }
+                            }
+                        });
+                    } else if (userData.pid == '180' || userData.categoryId == '211') {
+                        $.ajax({
+                            type: "POST",
+                            url: "https://www.cnpcbidding.com/cms/pmsbidInfo/detailsOut",
+                            data: JSON.stringify(userData),//必须
+                            contentType: "application/json;charsetset=UTF-8",//必须
+                            dataType: "JSON",
+                            success: function (data) {
+                                var list = data.list;
+                                var result = data.attachmentList;
+                                var html;
+                                if (list[0].bulletincontent) {
+                                    html = list[0].bulletincontent;
+                                    $("#content").html(html);
+                                } else if (data.length != 0) {
+                                    $("#contactTitle").html(list[0].projectname);
+
+
+                                    html = "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"dataground\" align=\"center\">\n" +
+                                        "    <tbody><tr>\n" +
+                                        "        <td align=\"center\">\n" +
+                                        "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" class=\"table_st\" width=\"930px\" height=\"150px\">\n" +
+                                        "                <colgroup span=\"2\" align=\"left\">\n" +
+                                        "                    <col align=\"right\">\n" +
+                                        "                    <col>\n" +
+                                        "                </colgroup>\n" +
+                                        "                <tbody>\n" +
+                                        "                <tr>\n" +
+                                        "                    <td width=\"20%\" class=\"col\">招标投标项目名称:</td>\n" +
+                                        "                    <td width=\"80%\" class=\"col1\">";
+                                    html += list[0].projectname + "</td>\n" +
+                                        "                </tr>";
+                                    html += "<tr>\n" +
+                                        "                    <td class=\"col\">招标人：</td>\n" +
+                                        "                    <td class=\"col1\">";
+                                    if (!list[0].projecttendername) { // "",null,undefined,NaN
+                                        html += "</td>\n" +
+                                            "                </tr>";
+
+                                    } else {
+                                        html += list[0].projecttendername + "</td>\n" +
+                                            "                </tr>";
+                                    }
+                                    html += "<tr>\n" +
+                                        "                    <td class=\"col\">招标代理机构：</td>\n" +
+                                        "                    <td class=\"col1\">";
+                                    if (!list[0].tenderagencyname) { // "",null,undefined,NaN
+                                        html += "</td>\n" +
+                                            "                </tr>";
+
+                                    } else {
+                                        html += list[0].tenderagencyname + "</td>\n" +
+                                            "                </tr>";
+                                    }
+                                    html += "<tr>\n" +
+                                        "                    <td class=\"col\">开标日期：</td>\n" +
+                                        "                    <td class=\"col1\">";
+                                    if (!list[0].opentenderdate) { // "",null,undefined,NaN
+                                        html += "</td>\n" +
+                                            "                </tr>";
+
+                                    } else {
+                                        html += list[0].opentenderdate + "</td>\n" +
+                                            "                </tr>";
+                                    }
+                                    html += "<tr>\n" +
+                                        "                    <td class=\"col\">评标时间：</td>\n" +
+                                        "                    <td class=\"col1\">";
+                                    if (!list[0].evaluateTenderDate) { // "",null,undefined,NaN
+                                        html += "</td>\n" +
+                                            "                </tr>";
+
+                                    } else {
+                                        html += list[0].evaluateTenderDate + "</td>\n" +
+                                            "                </tr>";
+                                    }
+                                    html += "<tr>\n" +
+                                        "                    <td class=\"col\">\n" +
+                                        "                        评标结果：\n" +
+                                        "                    </td>\n" +
+                                        "                    <td>\n";
+                                    if (!list[0].resultcontent || list[0].resultcontent == '0003') {//投标人排名、报价及分数
+                                        html += "                        <table id=\"bidtable\" border=\"1\" width=\"600px\" cellspacing=\"0\" cellpadding=\"0\" style=\"border:1x solid #e0e0e0;\">\n" +
+                                            "                            <tbody><tr>\n" +
+                                            "                                <td align=\"center\" style=\"white-space:nowrap\">投标人</td>\n" +
+                                            "                                <td align=\"center\" style=\"white-space:nowrap\">标段</td>\n" +
+                                            "                                <td align=\"center\" style=\"white-space:nowrap\">标段报价(元)</td>\n" +
+                                            "                                <td align=\"center\" style=\"white-space:nowrap\">技术分</td>\n" +
+                                            "                                <td align=\"center\" style=\"white-space:nowrap\">商务分</td>\n" +
+                                            "                                <td align=\"center\" style=\"white-space:nowrap\">价格分</td>\n" +
+                                            "                                <td align=\"center\" style=\"white-space:nowrap\">评标总分</td>\n" +
+                                            "                                <td align=\"center\" style=\"white-space:nowrap\">排名</td>\n" +
+                                            "                                <td align=\"center\" style=\"white-space:nowrap\">备注</td>\n" +
+                                            "                            </tr>";
+                                        for (var i = 0; i < list.length; i++) {
+                                            html += "<tr align=\"center\">";
+                                            if (!list[i].tendername) { // "",null,undefined,NaN
+                                                html += "<td></td>";
+                                            } else {
+                                                html += "<td>" + list[i].tendername + "</td>";
+                                            }
+                                            if (!list[i].packagename) { // "",null,undefined,NaN
+                                                html += "<td></td>";
+                                            } else {
+                                                html += "<td>" + list[i].packagename + "</td>";
+                                            }
+                                            if (!list[i].quote) { // "",null,undefined,NaN
+                                                html += "<td></td>";
+                                            } else {
+                                                html += "<td>" + list[i].quote + "</td>";
+                                            }
+                                            if (!list[i].technicalpoints) { // "",null,undefined,NaN
+                                                html += "<td></td>";
+                                            } else {
+                                                html += "<td>" + list[i].technicalpoints + "</td>";
+                                            }
+                                            if (!list[i].businesspoints) { // "",null,undefined,NaN
+                                                html += "<td></td>";
+                                            } else {
+                                                html += "<td>" + list[i].businesspoints + "</td>";
+                                            }
+                                            if (!list[i].pricepoints) { // "",null,undefined,NaN
+                                                html += "<td></td>";
+                                            } else {
+                                                html += "<td>" + list[i].pricepoints + "</td>";
+                                            }
+                                            if (!list[i].totalpoints) { // "",null,undefined,NaN
+                                                html += "<td></td>";
+                                            } else {
+                                                html += "<td>" + list[i].totalpoints + "</td>";
+                                            }
+                                            if (!list[i].tenderOrder) { // 排名
+                                                html += "<td></td>";
+                                            } else {
+                                                html += "<td>" + list[i].tenderOrder + "</td>";
+                                            }
+                                            if (!list[i].remark) { // "",null,undefined,NaN
+                                                html += "<td></td>";
+                                            } else {
+                                                html += "<td>" + list[i].remark + "</td>";
+                                            }
+
+                                            html += "</tr>";
+
+                                        }
+
+                                    } else {
+                                        if (list[0].resultcontent == '0001') {//投标人排名
+                                            html += "                        <table id=\"bidtable\" border=\"1\" width=\"600px\" cellspacing=\"0\" cellpadding=\"0\" style=\"border:1x solid #e0e0e0;\">\n" +
+                                                "                            <tbody><tr>\n" +
+                                                "                                <td align=\"center\" style=\"white-space:nowrap\">投标人</td>\n" +
+                                                "                                <td align=\"center\" style=\"white-space:nowrap\">标段</td>\n" +
+                                                "                                <td align=\"center\" style=\"white-space:nowrap\">排名</td>\n" +
+                                                "                                <td align=\"center\" style=\"white-space:nowrap\">备注</td>\n" +
+                                                "                            </tr>";
+                                            for (var i = 0; i < list.length; i++) {
+                                                html += "<tr align=\"center\">";
+                                                if (!list[i].tendername) { // "",null,undefined,NaN
+                                                    html += "<td></td>";
+                                                } else {
+                                                    html += "<td>" + list[i].tendername + "</td>";
+                                                }
+                                                if (!list[i].packagename) { // "",null,undefined,NaN
+                                                    html += "<td></td>";
+                                                } else {
+                                                    html += "<td>" + list[i].packagename + "</td>";
+                                                }
+                                                if (!list[i].tenderOrder) { // 排名
+                                                    html += "<td></td>";
+                                                } else {
+                                                    html += "<td>" + list[i].tenderOrder + "</td>";
+                                                }
+                                                if (!list[i].remark) { // "",null,undefined,NaN
+                                                    html += "<td></td>";
+                                                } else {
+                                                    html += "<td>" + list[i].remark + "</td>";
+                                                }
+
+                                                html += "</tr>";
+
+                                            }
+                                        } else if (list[0].resultcontent == '0002') {//投标人排名及报价
+                                            html += "                        <table id=\"bidtable\" border=\"1\" width=\"600px\" cellspacing=\"0\" cellpadding=\"0\" style=\"border:1x solid #e0e0e0;\">\n" +
+                                                "                            <tbody><tr>\n" +
+                                                "                                <td align=\"center\" style=\"white-space:nowrap\">投标人</td>\n" +
+                                                "                                <td align=\"center\" style=\"white-space:nowrap\">标段</td>\n" +
+                                                "                                <td align=\"center\" style=\"white-space:nowrap\">标段报价(元)</td>\n" +
+                                                "                                <td align=\"center\" style=\"white-space:nowrap\">排名</td>\n" +
+                                                "                                <td align=\"center\" style=\"white-space:nowrap\">备注</td>\n" +
+                                                "                            </tr>";
+                                            for (var i = 0; i < list.length; i++) {
+                                                html += "<tr align=\"center\">";
+                                                if (!list[i].tendername) { // "",null,undefined,NaN
+                                                    html += "<td></td>";
+                                                } else {
+                                                    html += "<td>" + list[i].tendername + "</td>";
+                                                }
+                                                if (!list[i].packagename) { // "",null,undefined,NaN
+                                                    html += "<td></td>";
+                                                } else {
+                                                    html += "<td>" + list[i].packagename + "</td>";
+                                                }
+                                                if (!list[i].quote) { // "",null,undefined,NaN
+                                                    html += "<td></td>";
+                                                } else {
+                                                    html += "<td>" + list[i].quote + "</td>";
+                                                }
+                                                if (!list[i].tenderOrder) { // 排名
+                                                    html += "<td></td>";
+                                                } else {
+                                                    html += "<td>" + list[i].tenderOrder + "</td>";
+                                                }
+                                                if (!list[i].remark) { // "",null,undefined,NaN
+                                                    html += "<td></td>";
+                                                } else {
+                                                    html += "<td>" + list[i].remark + "</td>";
+                                                }
+
+                                                html += "</tr>";
+
+                                            }
+                                        }
+                                    }
+                                    html += "</tbody></table>\n" +
+                                        "                    </td>\n" +
+                                        "                </tr>";
+                                    html += "<tr>\n" +
+                                        "                    <td class=\"col\">联系人：</td>\n" +
+                                        "                    <td class=\"col1\">";
+                                    if (!list[0].assignedusername) { // "",null,undefined,NaN
+                                        html += "</td>\n" +
+                                            "                </tr>";
+
+                                    } else {
+                                        html += list[0].assignedusername + "</td>\n" +
+                                            "                </tr>";
+                                    }
+                                    html += "<tr>\n" +
+                                        "                    <td class=\"col\">电话：</td>\n" +
+                                        "                    <td class=\"col1\">";
+                                    if (!list[0].resultcontactphone) { // "",null,undefined,NaN
+                                        html += "</td>\n" +
+                                            "                </tr>";
+
+                                    } else {
+                                        html += list[0].resultcontactphone + "</td>\n" +
+                                            "                </tr>";
+                                    }
+                                    html += "<tr>\n" +
+                                        "                    <td class=\"col\">公示日期：</td>\n" +
+                                        "                    <td class=\"col1\">";
+                                    if (!list[0].publicitydatestart && !list[0].publicitydateend) { // "",null,undefined,NaN
+                                        html += "</td>\n" +
+                                            "                </tr>";
+
+                                    } else {
+                                        html += list[0].publicitydatestart + " 至 " + list[0].publicitydateend + "</td>\n" +
+                                            "                </tr>";
+                                    }
+
+                                    if (result.length == 0) { // "",null,undefined,NaN
+                                        html += "<tr>\n" +
+                                            "                    <td colspan=\"2\">\n" +
+                                            "                        <div align=\"left\">\n" +
+                                            "                            <table>\n" +
+                                            "                                <tbody><tr>\n" +
+                                            "                                    <td>附件</td>\n" +
+                                            "                                </tr>\n" +
+                                            "                                <tr>\n";
+                                        html += "<tr><td>无</td>\n" +
+                                            "                </tr>";
+                                        //最后
+                                        html += "</tbody></table>\n" +
+                                            "        </td>\n" +
+                                            "    </tr>\n" +
+                                            "    </tbody></table>";
+
+                                    } else {
+                                        html += "<tr>\n" +
+                                            "                    <td colspan=\"2\">\n" +
+                                            "                        <div align=\"left\">\n" +
+                                            "                            <table>\n" +
+                                            "                                <tbody><tr>\n" +
+                                            "                                    <td>附件</td>\n" +
+                                            "                                </tr>\n" +
+                                            "                                <tr>\n";
+                                        for (var i = 0; i < result.length; i++) {
+                                            html += "<tr><td><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + result[i].ATTACHMENTID + "&skip=true\" download='" + result[i].NAME + "'>" + result[i].NAME + "</a></td></tr>";
+                                        }
+                                        //最后
+                                        html += "</tbody></table>\n" +
+                                            "        </td>\n" +
+                                            "    </tr>\n" +
+                                            "    </tbody></table>";
+                                    }
+                                    var title = "<div class=\"column_block_con_title\">" +
+                                        "                            <h3>" + list[0].projectname + "</h3>";
+                                    if (list[0].lastmodifydate) {
+                                        title = title + "                            <span>发布时间：" + list[0].lastmodifydate + "</span>";
+                                    } else {
+                                        title = title + "                            <span>发布时间：</span>";
+                                    }
+                                    title = title + "                        </div>";
+                                    var content = title + "<div>" + html + "</div>";
+                                    $("#content").html(content);
+
+
+
+                                } else {
+                                    $("#content").html("<p>没有查到该条数据</p>");
+                                }
+
+
+                            }
+                        });
+                    } else if (userData.pid == '198') {
+                        if (userData.categoryId != '202' && userData.categoryId != '203' && userData.categoryId != '215') {
+                            $.ajax({
+                                type: "POST",
+                                url: "https://www.cnpcbidding.com/cms/pmsbidInfo/detailsOut",
+                                data: JSON.stringify(userData),//必须
+                                contentType: "application/json;charsetset=UTF-8",//必须
+                                dataType: "JSON",
+                                success: function (data) {
+
+                                    var list = data.list;
+                                    var result = data.attachmentList;
+                                    var fileId = list[0].fileId;
+                                    var fileName = list[0].fileName;
+                                    $("#contactTitle").html(list[0].projectname);
+                                    var html = list[0].bulletincontent;
+                                    var flag = typeof html != "undefined" && html != null && html != "";
+                                    if (flag) {
+                                        if (html.indexOf("class=\"hide\"") > 0) {
+                                            html = html.replace("class=\"hide\"", "");
+                                        }
+                                    } else {
+                                        html = "";
+                                    }
+                                    if (list[0].projectname) {
+                                        var title = "<div class=\"column_block_con_title\">" +
+                                            "                            <h3>" + list[0].projectname + "</h3>" +
+                                            "                            <span>发布时间：" + list[0].dateTime + "</span>" +
+                                            "                        </div>";
+
+                                        if (result.length > 0) { // "",null,undefined,NaN
+                                            html += "                            <table>\n" +
+                                                "                                <tbody><tr>\n" +
+                                                "                                    <td style=\"width:121px;\">附件</td>\n";
+                                            for (var i = 0; i < result.length; i++) {
+                                                html += "<td style=\"padding-left: 25px;\"><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + result[i].ATTACHMENTID + "&skip=true\" download='" + result[i].NAME + "'>" + result[i].NAME + "</a></td>";
+                                            }
+                                        } else if (fileId) {
+                                            html += "                            <table>\n" +
+                                                "                                <tbody><tr>\n" +
+                                                "                                    <td style=\"width:121px;\">附件</td>\n";
+                                            if (fileName) {
+                                                html += "<td style=\"padding-left: 25px;\"><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + fileId + "&skip=true\" download='" + list[0].fileName + "'>" + list[0].fileName + "</a></td>";
+                                            } else {
+                                                html += "<td style=\"padding-left: 25px;\"><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + fileId + "&skip=true\" download='" + list[0].projectname + "'>" + list[0].projectname + "</a></td>";
+                                            }
+                                        } else {
+                                            html += "                            <table>\n" +
+                                                "                                <tbody><tr>\n" +
+                                                "                                    <td style=\"width:121px;\">附件</td>\n";
+                                            html += "<td style=\"padding-left: 25px;\">无</td>\n";
+
+                                        }
+                                        html += "</tr></tbody></table>";
+
+                                        var content = title + "<div>" + html + "</div>";
+                                        $("#content").html(content);
+                                    } else {
+                                        $("#content").html(html);
+                                    }
+                                }
+                            });
+                        } else if (userData.categoryId == '215') {
+                            $.ajax({
+                                type: "POST",
+                                url: "https://www.cnpcbidding.com/cms/pmsbidInfo/detailsOut",
+                                data: JSON.stringify(userData),//必须
+                                contentType: "application/json;charsetset=UTF-8",//必须
+                                dataType: "JSON",
+                                success: function (data) {
+
+                                    var list = data.list;
+                                    var result = data.attachmentList;
+                                    var fileId = list[0].fileId;
+                                    var fileName = list[0].fileName;
+                                    $("#contactTitle").html(list[0].projectname);
+                                    var html = list[0].bulletincontent;
+                                    var flag = typeof html != "undefined" && html != null && html != "";
+                                    if (flag) {
+                                        if (html.indexOf("class=\"hide\"") > 0) {
+                                            html = html.replace("class=\"hide\"", "");
+                                        }
+                                    } else {
+                                        html = "";
+                                    }
+                                    if (list[0].projectname) {
+                                        var title = "<div class=\"column_block_con_title\">" +
+                                            "                            <h3>" + list[0].projectname + "</h3>" +
+                                            "                            <span>公告编号：" + list[0].id + "</span>" +
+                                            "                            <span>&nbsp;&nbsp;发布时间：" + list[0].dateTime + "</span>" +
+                                            "                        </div>";
+
+                                        if (result.length > 0) { // "",null,undefined,NaN
+                                            html += "<table style=\"margin-top: 13px;\">\n" +
+                                                "                                <tbody><tr>\n" +
+                                                "                                    <td style=\"width:121px;\">附件</td>\n";
+                                            for (var i = 0; i < result.length; i++) {
+                                                html += "<td style=\"padding-left: 25px;\"><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + result[i].ATTACHMENTID + "&skip=true\" download='" + result[i].NAME + "'>" + result[i].NAME + "</a></td>";
+                                            }
+                                        } else if (fileId) {
+                                            html += "<table style=\"margin-top: 13px;\">\n" +
+                                                "                                <tbody><tr>\n" +
+                                                "                                    <td style=\"width:121px;\">附件</td>\n";
+                                            if (fileName) {
+                                                html += "<td><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + fileId + "&skip=true\" download='" + list[0].fileName + "'>" + list[0].fileName + "</a></td>";
+                                            } else {
+                                                html += "<td><a href=\"https://www.cnpcbidding.com/pmsbid/download?id=" + fileId + "&skip=true\" download='" + list[0].projectname + "'>" + list[0].projectname + "</a></td>";
+                                            }
+                                        } else {
+                                            html += "<table style=\"margin-top: 13px;\">\n" +
+                                                "                                <tbody><tr>\n" +
+                                                "                                    <td style=\"width:121px;\">附件</td>\n";
+                                            html += "<td>无</td>\n";
+
+                                        }
+                                        html += "</tr></tbody></table>";
+
+                                        var content = title + "<div>" + html + "</div>";
+                                        $("#content").html(content);
+                                    } else {
+                                        $("#content").html(html);
+                                    }
+                                }
+                            });
+                        }/*else if(userData.categoryId == '215'){
+            $.get("https://www.cnpcbidding.com/mcms/article/" +userData.dataId+ "/detail",userData,function (result) {
+                // categoryTitle 标题
+                // categoryId ID
+                var downloadUrl = "https://www.cnpcbidding.com/download";
+                if (result){
+                    $("#contactTitle").html(result.basicTitle);
+                    var title = "<div class=\"column_block_con_title\">" +
+                        "                            <h3>"+result.basicTitle+"</h3>" +
+                        "                            <span>发布时间："+result.basicDateTime+"</span>" +
+                        "                        </div>";
+
+                    var content ="";
+                    if(result.articleContent){
+                        content= title + "<div>"+result.articleContent+"</div>";
+                    }else{
+                        content = title;
+                    }
+
+                    if (result.basicThumbnails && result.basicThumbnails.length > 0){
+                        var fileName = result.basicThumbnails.substring(result.basicThumbnails.lastIndexOf("/")+1);
+                        var filePath = encodeURIComponent(result.basicThumbnails);
+                        content += "附件: <a href=\""+downloadUrl+"?file="+ filePath + "&type=diy&fileName="+ fileName +"\">" + fileName + "</a>";
+                    }
+                    $("#content").html(content);
+                }
+            },"json");
+        }*/else {
+                            userData.categoryId = '202';
+                            $.get("https://www.cnpcbidding.com/mcms/article/" + userData.dataId + "/detail", userData, function (result) {
+                                // categoryTitle 标题
+                                // categoryId ID
+                                var downloadUrl = "https://www.cnpcbidding.com/download";
+                                if (result) {
+                                    $("#contactTitle").html(result.basicTitle);
+                                    var title = "<div class=\"column_block_con_title\">" +
+                                        "                            <h3>" + result.basicTitle + "</h3>" +
+                                        "                            <span>发布时间：" + result.basicDateTime + "</span>" +
+                                        "                        </div>";
+
+                                    var content = "";
+                                    if (result.articleContent) {
+                                        content = title + "<div>" + result.articleContent + "</div>";
+                                    } else {
+                                        content = title;
+                                    }
+
+                                    if (result.basicThumbnails && result.basicThumbnails.length > 0) {
+                                        var fileName = result.basicThumbnails.substring(result.basicThumbnails.lastIndexOf("/") + 1);
+                                        var filePath = encodeURIComponent(result.basicThumbnails);
+                                        content += "附件: <a href=\"" + downloadUrl + "?file=" + filePath + "&type=diy&fileName=" + fileName + "\">" + fileName + "</a>";
+                                    }
+                                    $("#content").html(content);
+                                }
+                            }, "json");
+                        }
+                    } else {
+                        $.get("https://www.cnpcbidding.com/mcms/article/" + userData.dataId + "/detail", userData, function (result) {
+                            // categoryTitle 标题
+                            // categoryId ID
+                            var downloadUrl = "https://www.cnpcbidding.com/download";
+                            if (result) {
+                                $("#contactTitle").html(result.basicTitle);
+                                var title = "<div class=\"column_block_con_title\">" +
+                                    "                            <h3>" + result.basicTitle + "</h3>" +
+                                    "                            <span>发布时间：" + result.basicDateTime + "</span>" +
+                                    "                        </div>";
+
+                                var content = "";
+                                if (result.articleContent) {
+                                    content = title + "<div>" + result.articleContent + "</div>";
+                                } else {
+                                    content = title;
+                                }
+
+                                if (result.basicThumbnails && result.basicThumbnails.length > 0) {
+                                    var fileName = result.basicThumbnails.substring(result.basicThumbnails.lastIndexOf("/") + 1);
+                                    var filePath = encodeURIComponent(result.basicThumbnails);
+                                    content += "附件: <a href=\"" + downloadUrl + "?file=" + filePath + "&type=diy&fileName=" + fileName + "\">" + fileName + "</a>";
+                                }
+                                $("#content").html(content);
+                            }
+                        }, "json");
+                    }
+                }
+                initPage();
+            </script>
+
+            <div>
+                <button id="goBackBtn" onclick="goBack()">返回</button>
+            </div>
+
+            <script>
+                // 用户操作数据缓存
+                // var userData = {
+                //     pid: "",
+                //     categoryId: "",
+                //     dataId: ""
+                // };
+                //返回
+                var back = {
+                    burl: "./index.html",
+                    bpid: "",
+                    bpageSize: "",
+                    bcategoryId: "",// 栏目ID
+                    btitle: "",
+                    bprojectType: "",
+                    bpageNo: "",
+                    bdataId: ""// 公告通知ID
+                };
+                var userData = {
+                    url: "",
+                    pid: "",
+                    pageSize: "",
+                    categoryId: "",// 栏目ID
+                    title: "",
+                    projectType: "",
+                    pageNo: "",
+                    dataId: ""// 公告通知ID
+                };
+
+            </script>
+            <script>
+                var baseUrl = "";
+                function loadPage(dom) {
+                    if (userData.url != "") {
+                        back.burl = userData.url;
+                        back.bcategoryId = userData.categoryId;
+                        back.bpid = userData.pid;
+                        back.bdataId = userData.dataId;
+                        back.btitle = userData.title;
+                        back.bprojectType = userData.projectType;
+                        back.bpageSize = userData.pageSize;
+                        back.bpageNo = userData.pageNo;
+                    }
+                    var $dom = $(dom);
+                    var url = $dom.attr("url");
+                    var pid = $dom.attr("pid");
+                    var categoryId = $dom.attr("categoryId");
+                    var dataId = $dom.attr("dataId");
+
+                    userData.url = url;
+                    userData.pid = pid;
+                    userData.categoryId = categoryId;
+                    userData.dataId = dataId;
+
+                    $.get(url, {}, function (result) {
+                        $("#content_iframe").html(result);
+                        //initPage();
+                    });
+                }
+                ms.load(["ms", "https://www.cnpcbidding.com/templets/1/outer/js/demo.js"], function (ms, mmstore) { //../templets/86/cms/js/ms.mstore.js
+                    var index = new Vue({
+                        el: "#content_iframe",
+                        data: {
+                            bannerList: ['01', '02', '03', '04', '05'], //幻灯片列表
+                            modelList: [], //模板列表
+                            pulgList: [], //插件列表
+                            loading: false, //加载状态
+                        },
+                        methods: {
+                            loadContent: function (url, param) {
+                                var data;
+                                if (param) {
+                                    data = param;
+                                }
+                                $.get(url, data, function (result) {
+                                    $("#content_iframe").html(result);
+                                });
+                            }
+                        },
+                        mounted: function () {
+                            this.loadContent("./content.html");
+                        },
+                    })
+                });
+                // 以下均为登录相关js  2019-08.19
+                window.onload = function () {
+                    // var loginSection = iframe.querySelector('#login-section');
+                    // var loginsuccessSection = iframe.querySelector('#success-login-section');
+                    // var closeIcon = iframe.querySelector('#login-close-icon');
+                    //注册
+                    var register = document.querySelector('#register-text');
+
+                    register.onclick = function () {
+                        $('#myModal').modal('show');
+                    };
+                    //注册——同意按钮
+                    var agree = document.querySelector('#primary-agree');
+                    agree.onclick = function () {
+                        $('#myModal').modal('hide');
+                        window.location.href = "https://ebidmanage.cnpcbidding.com/bidder/ebid/userRegist/tbidder_regist_new.html";
+                    };
+
+                    var userLogout = document.querySelector('#user-logout');
+                    var loginText = document.querySelector('.login-text');
+                    var login = document.querySelector('#user-login');
+                    var loginField = document.querySelector('#login-field');
+                    var userInfo = document.querySelector('#user-info');
+                    var userActions = document.querySelector('#user-actions');
+                    var loged = false;
+                    console.log(loginText);
+                    if (loginText === '<span class="login-text">undefined</span>') {
+                        loginText.innerText = '登录';
+                    }
+
+                    // 点击导航栏右侧的登录 可以打开登录框；已登录状态下 含loged-in 类；则不打开登录框
+                    login.onclick = function () {
+                        if (!loged) {
+                            loginField.classList.add('block');
+                            // closeIcon.classList.remove('area-hidden');
+                        }
+                    }
+
+                    // 关闭登录框的方法
+                    function closeLoginField() {
+                        loginField.classList.remove('block')
+                    }
+
+                    // 已登录状态，移入用户名展示下拉框（去招标平台及退出登录）
+                    userInfo.onmouseover = function () {
+                        if (!loged) return;
+                        userActions.classList.add('block')
+                    }
+
+                    // 已登录状态，移出用户名收起下拉框（去招标平台及退出登录）
+                    userInfo.onmouseout = function () {
+                        if (!loged) return;
+                        userActions.classList.remove('block')
+                    }
+
+                    // 退出登录
+                    userLogout.onclick = function () {
+                        // 用户名变更为登录
+                        $.getJSON(baseUrl + "/logoutJSONP?callback=?",
+                            function (data) {
+                                if (data.result) {
+                                    // loginText.innerText = '登录';
+                                    // loged = false;
+                                    // userActions.classList.remove('block');
+                                    location.reload();
+                                }
+                            });
+                    }
+                    $.ajaxSetup({ async: false });
+                    $.getJSON(baseUrl + "/checkLoginStatusJSONP?callback=?",
+                        function (data) {
+                            if (data.result) {
+                                loginText.innerText = data.resultData.name
+                                loged = data.result;
+                                console.log(data);
+                            }
+                        });
+                    $.ajaxSetup({ async: true });
+                    window.addEventListener('message', function (e) {
+                        var data = e.data;
+                        if (data.username) {
+                            loginText.innerText = data.username;
+                        }
+                        console.log(data);
+                        loged = data.loged;
+                        if (data.closeLogin) {
+                            closeLoginField()
+                        }
+                    })
+                }
+                function goBack() {
+                    var backUrl = back.burl;
+                    console.log(backUrl);
+                    console.log(back.bpid);
+
+                    if (back.bpid != userData.pid) {
+                        var p = back.bpid;
+                        back.bpid = userData.pid;
+                        userData.pid = p;
+                    }
+                    if (back.burl != userData.url) {
+                        var p = back.burl;
+                        back.burl = userData.url;
+                        userData.url = p;
+                    }
+                    if (back.bcategoryId != userData.categoryId) {
+                        var p = back.bcategoryId;
+                        back.bcategoryId = userData.categoryId;
+                        userData.categoryId = p;
+                    }
+                    if (back.bdataId != userData.dataId) {
+                        var p = back.bdataId;
+                        back.bdataId = userData.dataId;
+                        userData.dataId = p;
+                    }
+                    if (back.btitle != userData.title) {
+                        var p = back.btitle;
+                        back.btitle = userData.title;
+                        userData.title = p;
+                    }
+                    if (back.bprojectType != userData.projectType) {
+                        var p = back.bprojectType;
+                        back.bprojectType = userData.projectType;
+                        userData.projectType = p;
+                    }
+                    if (back.bpageNo != userData.pageNo) {
+                        var p = back.bpageNo;
+                        back.bpageNo = userData.pageNo;
+                        userData.pageNo = p;
+                    }
+                    if (back.bpageSize != userData.pageSize) {
+                        var p = back.bpageSize;
+                        back.bpageSize = userData.pageSize;
+                        userData.pageSize = p;
+                    }
+                    $.get(backUrl, {}, function (result) {
+                        $("#content_iframe").html(result);
+                    });
+                }
+            </script>
+
+
+</body>
+
+</html>
